@@ -1,0 +1,8 @@
+body {
+    background-color: yellow;      /* Sets the background color of the body to yellow */
+    color: blue;                   /* Sets the text color to blue */
+    font-size: 20px;                 /* Sets the font size to 20 pixels */
+    font-weight: lighter;            /* Sets the font weight to lighter */
+    text-align: right;               /* Aligns the text to the right */
+    margin-top: 5px;                 /* Sets the top margin to 5 pixels */
+}
