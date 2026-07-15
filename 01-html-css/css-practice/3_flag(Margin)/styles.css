@@ -6,12 +6,13 @@ body{
 .red{
     background: #c71226;
     height: 100px;
-    margin-bottom: 100px;
 }
 
 .blue{
     background: #0d1b88;
     height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .green{
