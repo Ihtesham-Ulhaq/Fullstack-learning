@@ -4,7 +4,9 @@
     border-radius: 100%;
     background: #bc002d;
 
-    margin: 40px 0px 0px 100px;
+    margin: 40px auto;
+    
+    /* margin: 40px 0px 0px 100px;*/
     
     /*
     margin-top: 40px;
@@ -13,8 +15,12 @@
     margin-left: 100px;
     */
 
-    /* can be written both ways the
+    /* can be written both ways the if all 4 values
     (margin: top right bottom left) just like a 
     clock which starts from top then right buttom 
-    and then left*/ 
+    and then left*/
+    
+    /* if 2 values can be written as (margin: top/bottom left/right)
+    in 2 values senario both top/bottom get same value
+    and right/left get same value */
 }
