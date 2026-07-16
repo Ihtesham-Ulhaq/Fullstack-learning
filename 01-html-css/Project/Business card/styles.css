@@ -1,6 +1,6 @@
 body {
     margin: 20px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card {
@@ -8,14 +8,27 @@ body {
     display: flex;
     justify-content: space-around;
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     color: #2b2839;
-    border-bottom: 6px solid #d8cefe;
-    background-color: #ddebf8;
+    border-bottom: 16px solid #7c6a0a;
+    background-color: #babd8d;
+    transition: box-shadow 0.3 ease;
+    transition: text-shadow 0.3 ease;
+}
+
+.card:hover{
+    /* X-offset, Y-offset, Blur, Spread, Color */
+    box-shadow: 3px 3px 10px 2px black;
+}
+
+.text:hover{
+    /* X-offset, Y-offset, Blur, Color */
+    text-shadow: 1px 1px 0 black;
 }
 
 .avatar {
     width: 150px;
+    border-style:ridge;
+    border-radius: 100%;
 }
