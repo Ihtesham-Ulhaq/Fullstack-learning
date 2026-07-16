@@ -1,0 +1,24 @@
+.card{
+    color: #222222;
+    background-color: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 4px solid #222222;
+    border-radius: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* padding = space between the content and the border of an element */
+/* margin = space between the border of an element and the border of another element */
+/* border = the line that goes around an element */
+/* border-radius = the roundness of the corners of an element */
+/* color = the color of the text inside an element */
+/* background-color = the color of the background of an element */
+/* width = the width of an element */
+/* types of borders: solid, dotted, dashed, double, groove, ridge, inset, outset, none */
