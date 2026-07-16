@@ -1,0 +1,20 @@
+.red-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background: #bc002d;
+
+    margin: 40px 0px 0px 100px;
+    
+    /*
+    margin-top: 40px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    */
+
+    /* can be written both ways the
+    (margin: top right bottom left) just like a 
+    clock which starts from top then right buttom 
+    and then left*/ 
+}
