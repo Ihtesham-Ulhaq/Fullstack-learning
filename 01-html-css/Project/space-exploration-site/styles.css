@@ -17,3 +17,8 @@ body {
     border: none;
     font-family: inherit
 }
+
+.cta {
+    color: aqua;
+    border-bottom: 4px dashed;
+}
