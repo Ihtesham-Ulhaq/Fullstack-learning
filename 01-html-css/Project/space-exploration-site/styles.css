@@ -1,24 +1,41 @@
-
-
 body {
-    color: white;
-    background-image: url(universe.jpg);
-    background-size: cover;
-}
-
-.main {
+    color: #a7a9ac;
     text-align: center;
     font-family: "Orbitron", sans-serif;
+    margin: 0;
+}
+
+#logo {
+    width: 150px;
+    justify-self: center;
+    display: flex;
+}
+
+#hero {
+    background-image: url(solar-system.webp);
+    background-size:cover;
+    padding: 10px 0 40px 0;
 }
 
 .btn {
     padding: 6px 12px;
     background-color: white;
     border: none;
-    font-family: inherit
+    font-family: inherit;
+    color: rgb(5, 113, 201);
+    font-weight: bold;
 }
 
-.cta {
-    color: aqua;
-    border-bottom: 4px dashed;
+/* id tag was used in html so to style id we use # instead of a dot (.) which is used for class
+use id for a unique formatting which we now will not be used again while use class for which needs to be used again and again*/
+#cta {
+    color: rgb(5, 113, 201);
+}
+
+.terms{
+    color: rgb(5, 113, 201);
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
 }
