@@ -24,7 +24,7 @@ body {
     font-family: inherit;
     color: rgb(5, 113, 201);
     font-weight: bold;
-}
+    }
 
 /* id tag was used in html so to style id we use # instead of a dot (.) which is used for class
 use id for a unique formatting which we now will not be used again while use class for which needs to be used again and again*/
