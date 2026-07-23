@@ -1,9 +1,21 @@
 body {
     text-align: center;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Happy Monkey", system-ui;
+    background-color: #a2d2ff;
+    color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 1px 1px 1px black;
 }
 
 #pic {
-    width: 300px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    border:6px solid #EFB0C9;
+    object-fit: cover;
 }
