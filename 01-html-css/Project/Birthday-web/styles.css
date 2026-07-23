@@ -4,7 +4,12 @@ body {
     background-color: #a2d2ff;
     color: #ffffff;
     display:flex;
-    flex-direction: column;
+    flex-direction: column; /*by default its row which causes the content to appear inline*/
+    /*when default the "row":
+    the justify-content controls the x-axis"main axis" while the align-items controls y-axis"cross axis"
+    but when you change flex direction to columns:
+    the default behaviour changes where now
+    x-axis which now became cross axis is controled by align-items and y-axis which became the main axis is contolled by justify-content*/
     align-items: center;
 }
 
@@ -19,3 +24,4 @@ h1, h2, h3, h4, p {
     border:6px solid #EFB0C9;
     object-fit: cover;
 }
+
